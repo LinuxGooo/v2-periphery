@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: GPL-2.0-or-later
+
+pragma solidity >=0.5.0;
+
+interface IUniswapV2Migrator {
+    function migrate(address token, uint amountTokenMin, uint amountETHMin, address to
+
 pragma solidity =0.6.6;
 
 import '@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol';
